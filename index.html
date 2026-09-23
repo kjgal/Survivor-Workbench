@@ -35,6 +35,7 @@
     .switch input:checked+span{border-color:var(--teal);background:#0a332f}.switch input:checked+span:after{transform:translateX(24px);background:var(--teal);box-shadow:0 0 12px #19e4d2}
     
     .ingredient-list{display:grid;gap:9px}.ingredient{display:grid;grid-template-columns:48px 1fr auto;align-items:center;gap:10px;padding:10px;border:1px solid #15373e;background:#050d11}
+    .ingredient > div { min-width: 0; }
     .ingredient-icon{width:48px;height:48px;display:block;background-image:url('./assets/ingredient-sprites.png');background-size:400% 400%;background-position:var(--icon-x) var(--icon-y);image-rendering:pixelated;border:1px solid #1b5b62;box-shadow:inset 0 0 12px #0008}
     .ingredient-name{font-size:.88rem;font-weight:850}.ingredient-stats{color:#64898f;font-size:.68rem;margin-top:3px}
     .stepper{display:flex;align-items:center;border:1px solid #1b5058}.stepper button{width:38px;height:38px;border:0;background:#0c272c;color:var(--teal);font-size:1.3rem;cursor:pointer}.stepper button:active{background:#17444a}
