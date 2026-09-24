@@ -1,5 +1,5 @@
-const CACHE = "survivor-workbench-v33";
-const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./assets/icon-192.png", "./assets/icon-512.png", "./assets/ingredient-sprites.png?v=33", "./assets/ui-sprites.png?v=33", "./assets/survivor-emblem.png?v=33", "./assets/cooking-animation.png", "./assets/ambient-world.png", "./assets/stone-tablet.png", "./assets/jerboa-animation.png", "./assets/jerboa-final-full.png", "./assets/jerboa-top-compact.png", "./assets/jerboa-final-hop.png", "./assets/jerboa-draped-rest.png", "./assets/goal-flask.png?v=33"];
+const CACHE = "survivor-workbench-v34";
+const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./assets/icon-192.png", "./assets/icon-512.png", "./assets/ingredient-sprites.png?v=33", "./assets/ui-blueprint.png?v=34", "./assets/ui-recipes.png?v=34", "./assets/ui-save.png?v=34", "./assets/ui-load.png?v=34", "./assets/ui-delete.png?v=34", "./assets/survivor-emblem.png?v=34", "./assets/cooking-animation.png", "./assets/ambient-world.png", "./assets/stone-tablet.png", "./assets/jerboa-animation.png", "./assets/jerboa-final-full.png", "./assets/jerboa-top-compact.png", "./assets/jerboa-final-hop.png", "./assets/jerboa-draped-rest.png", "./assets/goal-flask.png?v=34"];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
